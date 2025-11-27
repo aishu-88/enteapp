@@ -6,7 +6,8 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-
+import Account from "./account";
+import InfoIcon from "./information";
 const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -168,6 +169,12 @@ const Header = () => {
                 >
                   Sign Up
                 </Link>
+                <div className="mr-4">
+                  <Account />
+                </div>
+                <div className="mr-4">
+                  <InfoIcon />
+                </div>
 
               </div>
             </div>

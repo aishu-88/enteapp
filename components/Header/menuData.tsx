@@ -19,18 +19,18 @@ const menuData: Menu[] = [
     path: "/categories",
     newTab: false,
   },
-  {
-    id: 4,
-    title: "About Us",
-    path: "/about",
-    newTab: false,
-  },
-  {
-    id: 5,
-    title: "Blog",
-    path: "/blog",
-    newTab: false,
-  },
+  // {
+  //   id: 4,
+  //   title: "About Us",
+  //   path: "/about",
+  //   newTab: false,
+  // },
+  // {
+  //   id: 5,
+  //   title: "Blog",
+  //   path: "/blog",
+  //   newTab: false,
+  // },
   {
     id: 6,
     title: "Offers & Rewards",

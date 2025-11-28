@@ -7,12 +7,12 @@ const menuData: Menu[] = [
     path: "/",
     newTab: false,
   },
-  {
-    id: 2,
-    title: "Places",
-    path: "/places",
-    newTab: false,
-  },
+  // {
+  //   id: 2,
+  //   title: "Places",
+  //   path: "/places",
+  //   newTab: false,
+  // },
   {
     id: 3,
     title: "Categories",

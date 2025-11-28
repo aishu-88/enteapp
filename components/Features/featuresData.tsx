@@ -1,58 +1,79 @@
 import { Feature } from "@/types/feature";
-import { Wallet } from "lucide-react";
 
+// Updated: All icons in blue theme (#3B82F6 primary, #DBEAFE light)
 
 const featuresData: Feature[] = [
   {
     id: 1,
     title: "Cash Points",
     icon: (
-      <svg width="48" height="48" viewBox="0 0 40 40" className="fill-current">
-        <path opacity="0.5" d="M5 5H35V35H5V5Z" />
-        <path d="M20 10C15.58 10 12 13.58 12 18C12 22.42 15.58 26 20 26C24.42 26 28 22.42 28 18C28 13.58 24.42 10 20 10ZM20 14C22.21 14 24 15.79 24 18C24 20.21 22.21 22 20 22C17.79 22 16 20.21 16 18C16 15.79 17.79 14 20 14Z"/>
+      <svg width="48" height="48" viewBox="0 0 40 40">
+        <circle cx="20" cy="20" r="18" fill="#3B82F6" />
+        <circle cx="20" cy="20" r="10" fill="#1E3A8A" />
+        <text x="20" y="24" textAnchor="middle" fontSize="12" fill="#DBEAFE" fontWeight="bold">₹</text>
       </svg>
     ),
     paragraph: "",
   },
+
   {
     id: 2,
     title: "Spin & Win",
     icon: (
-      <svg width="48" height="48" viewBox="0 0 40 40" className="fill-current">
-        <path opacity="0.5" d="M20 0C8.97 0 0 8.97 0 20C0 31.03 8.97 40 20 40C31.03 40 40 31.03 40 20C40 8.97 31.03 0 20 0Z" />
-        <path d="M20 6L23 15L33 17L25 23L27 33L20 27L13 33L15 23L7 17L17 15L20 6Z" />
+      <svg width="48" height="48" viewBox="0 0 40 40">
+        <circle cx="20" cy="20" r="18" fill="#3B82F6" />
+        <path d="M20 4L23 14L34 16L25 22L27 32L20 26L13 32L15 22L6 16L17 14L20 4Z" fill="#DBEAFE" />
       </svg>
     ),
     paragraph: "",
   },
+
   {
     id: 3,
     title: "Rewards",
     icon: (
-      <svg width="48" height="48" viewBox="0 0 40 40" className="fill-current">
-        <path opacity="0.5" d="M20 2L25 14L38 15L28 23L31 36L20 29L9 36L12 23L2 15L15 14L20 2Z" />
+      <svg width="48" height="48" viewBox="0 0 40 40">
+        <circle cx="20" cy="20" r="18" fill="#3B82F6" />
+
+        {/* Trophy */}
+        <path
+          d="M14 10H26V14C26 16.5 24 18.5 21.5 19V22H25V24H15V22H18.5V19C16 18.5 14 16.5 14 14V10Z"
+          fill="#DBEAFE"
+        />
+        <path
+          d="M12 10H14V14C14 16 12.5 17.5 11 17.8V14C11 12 12 10 12 10Z"
+          fill="#DBEAFE"
+        />
+        <path
+          d="M26 10H28C28 10 29 12 29 14V17.8C27.5 17.5 26 16 26 14V10Z"
+          fill="#DBEAFE"
+        />
       </svg>
     ),
     paragraph: "",
   },
+
   {
     id: 4,
     title: "Scratch Cards",
     icon: (
-      <svg width="48" height="48" viewBox="0 0 40 40" className="fill-current">
-        <path opacity="0.5" d="M5 5H35V35H5V5Z" />
-        <path d="M10 15H30V18H10V15ZM10 22H25V25H10V22Z" />
+      <svg width="48" height="48" viewBox="0 0 40 40">
+        <rect x="5" y="5" width="30" height="30" rx="4" fill="#3B82F6" />
+        <rect x="10" y="14" width="20" height="3" fill="#DBEAFE" />
+        <rect x="10" y="22" width="15" height="3" fill="#DBEAFE" />
       </svg>
     ),
     paragraph: "",
   },
+
   {
     id: 5,
     title: "Gift Cards",
-   icon: (
-      <svg width="48" height="48" viewBox="0 0 40 40" className="fill-current">
-        <path opacity="0.5" d="M5 15H35V35H5V15Z" />
-        <path d="M20 5C17 5 15 7 15 9C15 11 17 13 20 13C23 13 25 11 25 9C25 7 23 5 20 5ZM10 15C10 12 13 10 16 10H24C27 10 30 12 30 15H10ZM18 15V35H22V15H18Z" />
+    icon: (
+      <svg width="48" height="48" viewBox="0 0 40 40">
+        <rect x="5" y="12" width="30" height="23" rx="4" fill="#3B82F6" />
+        <circle cx="20" cy="10" r="6" fill="#1E3A8A" />
+        <rect x="18" y="12" width="4" height="23" fill="#DBEAFE" />
       </svg>
     ),
     paragraph: "",

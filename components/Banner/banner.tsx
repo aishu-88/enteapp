@@ -23,11 +23,6 @@ const BannerSection = () => {
     <section className="py-16 md:py-20 lg:py-24">
       <div className="container mx-auto">
 
-        {/* Heading */}
-        <h2 className="text-3xl font-bold text-black dark:text-white mb-8">
-          Banners
-        </h2>
-
         {/* Banner Wrapper */}
         <div className="relative w-full h-[200px] md:h-[300px] lg:h-[350px] overflow-hidden rounded-xl shadow-lg">
 

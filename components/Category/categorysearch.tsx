@@ -32,7 +32,7 @@ const CategorySearch = () => {
 
           {/* Button */}
           <button
-            onClick={() => router.push("/requirements")}
+            onClick={() => router.push("/sentrequirement")}
             className="mb-6 w-full rounded-full bg-[#4f6bed] px-6 py-3 text-white font-medium transition hover:opacity-80"
           >
             Send your Requirements

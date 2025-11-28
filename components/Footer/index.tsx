@@ -53,14 +53,14 @@ const Footer = () => {
                       Home
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="/blogs"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Place
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="/categories"
@@ -69,14 +69,14 @@ const Footer = () => {
                       Categories
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="/blogs"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Blog
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="/offers"
@@ -85,14 +85,14 @@ const Footer = () => {
                       Offers & Rewards
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       About
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="/contact"
